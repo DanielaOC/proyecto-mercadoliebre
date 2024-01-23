@@ -1,25 +1,26 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #eac926;
   }
   
  
   .navbar {
-    background-color: #03264C;
-    color: #ebebeb;
+    
+    color: black;
     padding: 10px;
   }
   
  
   .login-bar {
-    background-color: #1259c3;
+   
     color: #ebebeb;
     padding: 10px;
   }
   
  
   .search-bar {
-    background-color: #ebebeb;
+   
     padding: 10px;
   }
   
