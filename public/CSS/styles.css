@@ -1,12 +1,18 @@
+* {
+  box-sizing: border-box;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #eac926;
+    font-size: 12px;
+    
   }
   
+
  
   .navbar {
-    
+    width: 80%;
     color: black;
     padding: 10px;
   }
@@ -20,31 +26,65 @@ body {
   
  
   .search-bar {
-   
+    
     padding: 10px;
   }
   
 
-  
- 
-  body {
-    font-size: 12px;
+  .burger-menu {
+    color: #03264c;
+    text-align: center;
+   
   }
-  
-  h1 {
+ 
+   
+  .h1, h3 {
     font-size: 24px;
+    text-align: center;
   }
   
- 
-  .price {
-    font-size: 18px;
+
+  .main {
+    width: 90%;
+    margin: 0 auto; 
+    text-align: center;
+  }
+
+  .contenedor-imagen {
+    border-top: 1px solid #ebebeb;
+    position: relative;
+      width: 200px;
+      padding: 15px;
+   
+  }
+
+    
+  .precio  {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: black;
+      font-size: 18px;
+    font-weight: bold;
   }
   
-  .discount {
+  .descuento {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: rgb(98, 192, 106);
+      font-size: 18px;
+    font-weight: bold;
+  }
+  
+
+  
+  
+  .description-service {
     font-size: 16px;
+    text-align: center;
   }
-  
-  .description {
-    font-size: 16px;
+  .footer{
+    background-color: #ebebeb;
+    text-align: center;
   }
-  

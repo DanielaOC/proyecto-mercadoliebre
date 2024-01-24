@@ -2,71 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Agregar titulo al documento -->
-    <title>titulo</title>
-    Linkear al archivo css
-    <link rel="stylesheet"href="/CSS/styles.css">
-
+    <meta name="viewport" content="width=device-width">
+   
+    <title>MercadoLiebre</title>
+    
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 rel="stylesheet" />
 
+    <link rel="stylesheet"href="/CSS/styles.css">
+
+    
 </head>
 
 <body>
     <header>
 
-        
+        <div class="navbar">
+            
 
         <img src="images/logo-mercado-liebre.svg" alt="logo de mercado liebre">
 
-        <p>Lugar para poner barra de busqueda</p>
+        <div class="search-bar">
+            <input type="search" placeholder="Buscar productos, marcas"
+            <div class="search-container">
+               <button><i class="fas fa-search"></i></button> 
+            </div>
+        </div>
+        
     
         <p class="description-service">
-         <i class="fa-solid fa-hand-holding-dollar"></i>Compra en cuotas y sin tarjeta de crédito
+         <i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin
+          tarjeta de crédito
+        </p>
         
-         <div class="navbar">
-            <nav>
-                <ol>
-                    <li>Ofertas</li>
-                    <li>Tiendas oficiales</li>
-                    <li>Vender</li>
-                    <li>Ayuda</li>
-                </ol>
-              </nav>
-
+         
+                
+                    <p>Ofertas</p>
+                    <p>Tiendas oficiales</p>
+                    <p>Vender</p>
+                    <p>Ayuda</p>
+                
+              
+                    <p>Crea tu cuenta</p>
+                    <p>Ingresa</p>
+                    <p>Mis compras</p>
+       
+        
         </div>
-           
-        <h3></h3>
+      
        
-       
-    
-        <ol>
-            <li>Crea tu cuenta</li>
-            <li>Ingresa</li>
-            <li>Mis compras</li>
             
-        </ol>
-   
 
     <div class="login-bar">
         
       </div>
       
-      <div class="search-bar">
-        
-      </div>
+     
+
+      <div class="burger-menu">
+        <i class="fas fa-bars"></i>
+        </div>
 
     </header>
     
-    <main>
+    <div class="main">
         <section>
             <h3>Basado en tu última visita</h3>
 
-         <img src="images/img-cafetera-moulinex.jpg" alt="imagen de cafetera">
-         <p>$6.770</p> 
-         <p>40% OFF</p>
-         <p>Cafetera Moulinex</p>
+                       
+
+            <article>
+                <div class="contenedor-imagen">
+                    <img src="images/img-cafetera-moulinex.jpg" alt="imagen de cafetera">
+                  <div class="precio">$6.770</div>
+                  <div class="descuento">40% OFF</div>
+                  <p class="descripcion">Cafetera Moulinex</p>
+                </div>
+              </article>
 
          <img src="images/img-macbook-pro.jpg" alt="imagen de MacBook">
          <p>$230.000</p>
@@ -113,9 +125,10 @@ rel="stylesheet" />
 
         </section>
     </main>
+    </div>
 
   
-    <footer>
+    <div class="footer">
         <h4>Pagá con tarjeta o en efectivo</h4>
         <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
             puntos de pago. ¡Y siempre es seguro!</p>
@@ -131,6 +144,7 @@ rel="stylesheet" />
         <h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
 
     </footer>
+    </div>
 
 </body>
 </html>
