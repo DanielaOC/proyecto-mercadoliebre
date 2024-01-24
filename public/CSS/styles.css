@@ -6,13 +6,14 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #eac926;
     font-size: 12px;
+    height: 90vh;
     
   }
   
 
  
   .navbar {
-    width: 80%;
+    width: 50%;
     color: black;
     padding: 10px;
   }
@@ -26,7 +27,7 @@ body {
   
  
   .search-bar {
-    
+    width: 50%; 
     padding: 10px;
   }
   
@@ -50,35 +51,159 @@ body {
     text-align: center;
   }
 
-  .contenedor-imagen {
+  img {
     border-top: 1px solid #ebebeb;
     position: relative;
-      width: 200px;
-      padding: 15px;
-   
+     width: 30%;
+      display: flex;
+     justify-content: left;
+    
+  }
+  .contenedor-imagen1 {
+    border-top: 1px solid #ebebeb;
+    position: relative;
+      display: flex;
+     justify-content: left;
   }
 
+  .contenedor-imagen2 {
+    border-top: 1px solid #ebebeb;
+    position: relative;
+     
+      display: flex;
+     justify-content: left;
+  }
+
+  .contenedor-imagen3 {
+    border-top: 1px solid #ebebeb;
+    position: relative;
+     
+      display: flex;
+     justify-content: left;
+  }
     
   .precio  {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 15px;
     color: black;
       font-size: 18px;
     font-weight: bold;
+    display: flex;
+     justify-content: left;
+     margin-block-end: 90px;
+  }
+  .precio1  {
+    position: absolute;
+    bottom: 15px;
+    color: black;
+      font-size: 18px;
+    font-weight: bold;
+    display: flex;
+     justify-content: left;
+     margin-block-end: 90px;
+  }
+  
+  .precio2  {
+    position: absolute;
+    bottom: 15px;
+    color: black;
+      font-size: 18px;
+    font-weight: bold;
+    display: flex;
+     justify-content: left;
+     margin-block-end: 90px;
+  }
+  .precio3  {
+    position: absolute;
+    bottom: 15px;
+    color: black;
+      font-size: 18px;
+    font-weight: bold;
+    display: flex;
+     justify-content: left;
+     margin-block-end: 90px;
   }
   
   .descuento {
     position: absolute;
     bottom: 10px;
     left: 10px;
-    color: rgb(98, 192, 106);
+    color: green;
       font-size: 18px;
     font-weight: bold;
+    margin-block-end: 70px;
+  }
+  .descuento1 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: green;
+      font-size: 18px;
+    font-weight: bold;
+    margin-block-end: 70px;
   }
   
+  .descuento2 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: green;
+      font-size: 18px;
+    font-weight: bold;
+    margin-block-end: 70px;
+  }
+  .descuento3 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: green;
+      font-size: 18px;
+    font-weight: bold;
+    margin-block-end: 70px;
+  }
 
-  
+.descripcion {
+  position: absolute;
+  bottom: 10px;
+  font-size: 18px;
+    font-weight: bold;
+    display: flex;
+     justify-content: left;
+     margin-inline-end: 20px;
+     flex-direction: row;
+}
+ .descripcion1 {
+  position: absolute;
+  bottom: 10px;
+  font-size: 18px;
+    font-weight: bold;
+    display: flex;
+     justify-content: left;
+     margin-inline-end: 20px;
+     flex-direction: row;
+} 
+
+.descripcion2 {
+  position: absolute;
+  bottom: 10px;
+  font-size: 18px;
+    font-weight: bold;
+    display: flex;
+     justify-content: left;
+     margin-inline-end: 20px;
+     flex-direction: row;
+} 
+
+.descripcion3 {
+  position: absolute;
+  bottom: 10px;
+  font-size: 18px;
+    font-weight: bold;
+    display: flex;
+     justify-content: left;
+     margin-inline-end: 20px;
+     flex-direction: row;
+} 
   
   .description-service {
     font-size: 16px;
