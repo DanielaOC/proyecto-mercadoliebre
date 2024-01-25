@@ -33,10 +33,20 @@ body {
   
 
   .burger-menu {
-    color: #03264c;
-    text-align: center;
-   
+    background-color: #1259c3;
+    border-radius: 5%;
+   width: 30px;
+   height: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
   }
+
+  .fa-bars{
+    color:white;
+  }
+
  
    
   .h1, h3 {
@@ -59,51 +69,8 @@ body {
      justify-content: left;
     
   }
-  .contenedor-imagen1 {
-    border-top: 1px solid #ebebeb;
-    position: relative;
-      display: flex;
-     justify-content: left;
-  }
-
-  .contenedor-imagen2 {
-    border-top: 1px solid #ebebeb;
-    position: relative;
-     
-      display: flex;
-     justify-content: left;
-  }
-
-  .contenedor-imagen3 {
-    border-top: 1px solid #ebebeb;
-    position: relative;
-     
-      display: flex;
-     justify-content: left;
-  }
-    
-  .precio  {
-    position: absolute;
-    bottom: 15px;
-    color: black;
-      font-size: 18px;
-    font-weight: bold;
-    display: flex;
-     justify-content: left;
-     margin-block-end: 90px;
-  }
-  .precio1  {
-    position: absolute;
-    bottom: 15px;
-    color: black;
-      font-size: 18px;
-    font-weight: bold;
-    display: flex;
-     justify-content: left;
-     margin-block-end: 90px;
-  }
   
-  .precio2  {
+  .section {
     position: absolute;
     bottom: 15px;
     color: black;
@@ -111,18 +78,10 @@ body {
     font-weight: bold;
     display: flex;
      justify-content: left;
-     margin-block-end: 90px;
+     margin-block-end: 30px;
   }
-  .precio3  {
-    position: absolute;
-    bottom: 15px;
-    color: black;
-      font-size: 18px;
-    font-weight: bold;
-    display: flex;
-     justify-content: left;
-     margin-block-end: 90px;
-  }
+ 
+
   
   .descuento {
     position: absolute;
@@ -133,35 +92,10 @@ body {
     font-weight: bold;
     margin-block-end: 70px;
   }
-  .descuento1 {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    color: green;
-      font-size: 18px;
-    font-weight: bold;
-    margin-block-end: 70px;
-  }
   
-  .descuento2 {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    color: green;
-      font-size: 18px;
-    font-weight: bold;
-    margin-block-end: 70px;
-  }
-  .descuento3 {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    color: green;
-      font-size: 18px;
-    font-weight: bold;
-    margin-block-end: 70px;
-  }
-
+  
+  
+   
 .descripcion {
   position: absolute;
   bottom: 10px;
@@ -172,38 +106,8 @@ body {
      margin-inline-end: 20px;
      flex-direction: row;
 }
- .descripcion1 {
-  position: absolute;
-  bottom: 10px;
-  font-size: 18px;
-    font-weight: bold;
-    display: flex;
-     justify-content: left;
-     margin-inline-end: 20px;
-     flex-direction: row;
-} 
+ 
 
-.descripcion2 {
-  position: absolute;
-  bottom: 10px;
-  font-size: 18px;
-    font-weight: bold;
-    display: flex;
-     justify-content: left;
-     margin-inline-end: 20px;
-     flex-direction: row;
-} 
-
-.descripcion3 {
-  position: absolute;
-  bottom: 10px;
-  font-size: 18px;
-    font-weight: bold;
-    display: flex;
-     justify-content: left;
-     margin-inline-end: 20px;
-     flex-direction: row;
-} 
   
   .description-service {
     font-size: 16px;
