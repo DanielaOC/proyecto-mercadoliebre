@@ -11,7 +11,10 @@ body {
   }
   
 
- 
+  #registroForm {
+    display: none;
+  }
+
   .navbar {
     width: 50%;
     color: black;
@@ -50,7 +53,7 @@ body {
 }
  
    
-  .h1, h2, h3, h4, h5, h6  {
+  .h1, h2 {
     font-size: 24px;
     text-align: center;
   }
@@ -123,5 +126,9 @@ body {
   }
   .footer{
     background-color: #ebebeb;
+    width: 50%;
     text-align: center;
+    color:#1259c3;
+   
+
   }
