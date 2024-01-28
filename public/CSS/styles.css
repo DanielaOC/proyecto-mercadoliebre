@@ -73,6 +73,7 @@ body {
 
   .product-container {
     position: relative;
+    width: 320px;
     display: inline-block; 
   }
   
