@@ -32,9 +32,17 @@ header {
 
 }
 
+
 .login-bar {
   font-size: 12px;
   padding: 10px;
+}
+
+a {
+  display: block;
+  margin-bottom: 10px; /* Ajusta el espacio entre enlaces según tus preferencias */
+  text-decoration: none; /* Quita el subrayado predeterminado */
+  color: black;
 }
 
 .search-bar {
@@ -101,6 +109,22 @@ img {
   position: relative;
   border-top: 1px solid #ebebeb;
 }
+
+@media only screen and (max-width: 360px) {
+  /* Ocultar la descripción del artículo en dispositivos móviles */
+  .article-description {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 361px) {
+  /* Agregar box-shadow en tablet o resoluciones superiores */
+  .box-shadow {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+}
+
+
 
 /*-----POSICION DEL CAMION-----*/
 .camion {
