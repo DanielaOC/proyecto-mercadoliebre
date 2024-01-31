@@ -7,11 +7,15 @@
 </head>
 <body>
    
-    <label for="creaCuentaCheckbox">Crea tu cuenta</label>
-  <input type="checkbox" id="creaCuentaCheckbox" onchange="mostrarFormulario()">
     
     <div id="registroForm">
-        <form action="registro" method="post">
+
+        <form action="register.html" method="post">
+
+          <label for="creaTuCuentaCheckbox">Crea tu cuenta</label>
+          <input type="checkbox" id="creaTUCuentaCheckbox" onchange="mostrarFormulario()">
+            
+
           <label for="nombre">Nombre y Apellido:</label>
           <input type="text" id="nombre" name="nombre" required>
         
@@ -72,6 +76,8 @@
             <button type="submit">Enviar</button>
             <button type="reset">Borrar</button>
         </form>
+
+    </div>
 
     
 </body>
