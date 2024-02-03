@@ -10,22 +10,28 @@
     
 
 
-<div id="login">
+
     
-    <form action="login.html" method="post">
+    <form action="home.html" method="post">
 
-        <label for="ingresaCheckbox">Ingresa</label>
-          <input type="checkbox" id="ingresaCheckbox" onchange="mostrarFormulario()"
 
+     <div>
         <label for="usuario">Nombre de usuario:</label>
         <input type="text" id="usuario" name="usuario" required>
+    </div>
 
+    <div>
         <label for="password">Contraseña:</label>
         <input type="password" id="password" name="password" required>
+    </div>
 
-        <input type="submit" value="Enviar">
+    <div>
+        <button type="submit">Enviar</button>
+        
+    </div>
+
     </form>
-</div>
+
     
 </body>
 </html>
