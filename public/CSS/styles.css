@@ -8,6 +8,7 @@
 body {
   font-size: 12px;
   background-color: #ebebeb;
+  
 }
 
 header {
@@ -71,7 +72,7 @@ a {
 }
 
 .h1,
-h2 {
+h2,h3 {
   font-size: 24px;
   text-align: center;
 }
@@ -80,7 +81,7 @@ h2 {
     /* SECCION PRINCIPAL MAIN */
 .main {
   width: 90%;
-  max-width: 800px;
+ 
   margin: 0;
   padding: 0;
   display: flex;
@@ -180,23 +181,42 @@ h4 {
   font-size: 16px;
 }
 
-@media(min-width: 768px) {
-  /* Ocultar la descripción del artículo en dispositivos móviles */
-  .article-description {
+
+/* Estilos para versiones móviles */
+@media  (max-width: 767px) {
+  
+  .login-bar {
+    display: none; /* Oculta los elementos del navbar en versión móvil */
+  }
+
+  .site {
     display: none;
   }
+  .description {
+    display: none;
+  }
+}
+
+/* Estilos para versiones de escritorio y tablet */
+@media (min-width: 768px) {
+  .burger-menu {
+    display: none; /* Oculta la imagen del menú hamburguesa en escritorio y tablet */
+  }
+  .product-container{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  
 }
 
 @media(min-width: 1024px) {
   
   .product-container {
     flex-wrap: wrap;
+    justify-content: center;
+    width: calc(25% - 40px); /* Ajusta el ancho de cada artículo, teniendo en cuenta el espacio entre ellos */
+    margin-bottom: 10px;
+  }
 
-  }
-/* Agregar box-shadow en tablet o resoluciones superiores */
-  .box-shadow {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-  }
 }
 
 
