@@ -16,15 +16,29 @@ app.get('/', (req, res) => {
 })
 
 
+
 app.get('/register', (req, res) => {
     const pathRegister= path.join(__dirname, './views/register.html')
     res.sendFile(pathRegister);
    })
+
+   app.post('/register', (req, res) => {
+    
+    res.send("el formulario se envio correctamente");
+   })
+
+
+
 
    app.get('/login', (req, res) => {
     const pathLogin= path.join(__dirname, './views/login.html')
     res.sendFile(pathLogin);
    })
 
+
+   app.post('/login', (req, res) => {
+    
+    res.send("el formulario se envio correctamente");
+   })
 
   
