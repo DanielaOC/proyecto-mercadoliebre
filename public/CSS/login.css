@@ -1,0 +1,116 @@
+/*- SECCION SEARCH BAR*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    font-size: 12px;
+    background-color: #ebebeb;
+    
+  }
+  
+  header {
+    background-color: #eac926;
+    padding: 15px;
+  }
+  
+  .registroForm {
+  
+    display: none;
+  }
+  
+  
+  .navbar {
+    width: 50%;
+    color: black;
+    padding: 10px;
+   
+  }
+  
+
+  
+  .login-bar {
+    font-size: 12px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    width: 50%;
+  }
+  
+  a {
+    display: block;
+    margin-bottom: 10px; /* Ajusta el espacio entre enlaces según tus preferencias */
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    color: black;
+  }
+  
+  .search-bar {
+    width: 50%;
+    padding: 5px;
+  }
+
+.contenedor{
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  gap:10px;
+}
+  
+  
+  
+  /*- SECCION LOGIN*/
+  form > * {
+    margin-bottom: 10px;
+  }
+
+  input {
+      padding: 10px ;
+      background-color: white;
+      color: black;
+      border-radius: 5px;
+    border-color: black;
+    width: 50%;
+    
+    }
+  
+  
+  
+    .login{
+      background-color:grey;
+      border: 1px solid #ccc;
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+     margin-bottom: 15px;
+    }
+  
+    /*-SECCION FOOTER*/
+    p {
+      color: black;
+      font-size: 12px;
+      font-weight: bold;
+      margin-block-end: 10px;
+    }
+    
+    footer i {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    
+    .footer {
+      background-color: #fff;
+      width: 100%;
+      text-align: center;
+      color: #1259c3;
+      font-size: 2em;
+    
+    }
+    
+    h4 {
+      color: black;
+      font-size: 16px;
+    }
