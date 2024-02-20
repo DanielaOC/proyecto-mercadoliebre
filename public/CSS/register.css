@@ -31,10 +31,6 @@ header {
  
 }
 
-.description-service {
-  text-align: center;
-
-}
 
 
 .login-bar {
@@ -42,6 +38,7 @@ header {
   padding: 10px;
   display: flex;
   gap: 10px;
+  width: 50%;
 }
 
 a {
@@ -56,13 +53,25 @@ a {
   padding: 5px;
 }
 
+.contenedor{
+  padding: 5px;
+width:80%;
+display: flex;
+justify-content: space-around;
+
+}
 
 
 /*- SECCION FORMULARIO DE REGISTRO*/
 form > * {
   margin-bottom: 10px;
+ 
 }
 
+label{
+  display: flex;
+  
+}
 
 input {
     padding: 10px ;
@@ -74,7 +83,8 @@ input {
   }
 
 .categorias {
-  align-items: center;
+  display: block;
+ text-align: center;
   flex-direction: column;
 }
 
